@@ -22,8 +22,6 @@ int main(){
     Sound sndBocaDois = LoadSound("sounds/Boca-2.mp3");
     Sound sndBocaTres = LoadSound("sounds/Boca-3.mp3");
     Sound sndBocaQuatro = LoadSound("sounds/Boca-4.mp3");
-    Sound sndTroca;
-    Sound sndTeste = LoadSound("sounds/adventuring_song.mp3");
 
     agogoPadrao = LoadTexture("images/agogo.png");
     agogoBocaUm = LoadTexture("images/agogo_1.png");
