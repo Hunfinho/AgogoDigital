@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <raylib.h>
 #define MENU_QUANT 4
-#define AGOGO_QUANT 35
+#define AGOGO_QUANT 26
 
 // gcc main.c -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
@@ -90,7 +90,6 @@ int main(){
     Sound sndBocaDois = LoadSound("sounds/Boca-2.mp3");
     Sound sndBocaTres = LoadSound("sounds/Boca-3.mp3");
     Sound sndBocaQuatro = LoadSound("sounds/Boca-4.mp3");
-    Sound sndTeste = LoadSound("sounds/adventuring_song.mp3");
     Sound sndDesafio = LoadSound("sounds/desafio.mp3");
 
     agogoPadrao = LoadTexture("images/agogo.png");
@@ -654,7 +653,6 @@ int main(){
     UnloadSound(sndBocaDois);
     UnloadSound(sndBocaTres);
     UnloadSound(sndBocaQuatro);
-    UnloadSound(sndTeste);
     UnloadSound(sndDesafio);
 
     CloseAudioDevice();
